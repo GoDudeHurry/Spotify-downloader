@@ -24,6 +24,9 @@ class Track :
     def getDownloadable(self) :
         return self.downloadable
     
+    def getDownloaded(self) :
+        return self.downloaded
+    
     def setMediaType(self, mediaType) :
         self.mediaType = mediaType
         
@@ -32,3 +35,12 @@ class Track :
         
     def setTitle(self, title) :
         self.title = title
+        
+    def setProceedToDownload(self, proceedToDownload) :
+        self.proceedToDownload = proceedToDownload
+    
+    def setDownloadable(self, downloadable) :
+        self.downloadable = downloadable
+    
+    def setDownloaded(self, downloaded) :
+        self.downloaded = downloaded
