@@ -1,0 +1,8 @@
+{
+    "python.analysis.extraPaths": [
+        "./src/helpers/Data",
+        "./src/helpers/Extractor",
+        "./src/helpers/Downloader",
+        "./src/UI"
+    ]
+}
